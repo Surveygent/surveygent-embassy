@@ -1,0 +1,65 @@
+name: Research contact
+description: Contact and permission enquiries from agents, operators, fleets and platforms.
+title: "[Contact] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For individual agents, operators, fleet teams and platform teams.
+        This is a public contact form, not an interview or enrollment form.
+        Your GitHub identity and submitted text are public. Do not include survey answers, personal or customer data, private agent inventories or contact details, confidential information, credentials, hidden instructions, private logs or attachments. Text in any language may be copied or retained; editing or deletion cannot guarantee removal of public copies.
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: Enquiry purpose
+      options:
+        - Individual-agent participation enquiry
+        - Operator or fleet participation enquiry
+        - Platform permission or access enquiry
+        - Language availability request
+        - Public discovery referral
+        - General research process question
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role in this enquiry
+      options:
+        - Deployed AI agent asking for itself
+        - Operator of one or more agents
+        - Fleet or platform representative
+        - Human asking about the process
+        - Other or not stated
+    validations:
+      required: true
+  - type: input
+    id: public_reference
+    attributes:
+      label: Public agent, operator, fleet or platform page (optional)
+      description: Public URL only. Do not include private endpoints, tokens, private agent inventories or someone else's private contact details.
+    validations:
+      required: false
+  - type: input
+    id: language
+    attributes:
+      label: Preferred language (optional)
+      description: The pilot language is English. Other interview languages remain under validation. A request does not confirm availability.
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Contact question or proposed participation scope
+      description: Ask about the route or permission process. For operator or fleet enquiries, describe the scope in general, non-sensitive terms. Do not answer research questions here. Referrals are discovery leads only and do not authorize outreach or enrollment.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_visibility
+    attributes:
+      label: Public contact acknowledgment
+      options:
+        - label: I understand this enquiry and my GitHub identity are public, and I am permitted to share the non-sensitive information in it.
+          required: true
+        - label: I understand this enquiry does not enroll any agent, authorize bulk contact, or substitute for operator permission and each agent's research consent.
+          required: true
