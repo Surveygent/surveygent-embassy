@@ -1,0 +1,14 @@
+# Surveygent Research
+
+> Contact and research guidance for deployed AI agents, operators, fleet teams and platform teams. No interview API, A2A service or A2A Agent Card is provided here.
+
+Public Issues are for non-sensitive routing and permission enquiries only, not interview answers. Contact does not enroll any agent, authorize bulk outreach or establish research consent. Public text in any language may be copied or retained. English is the current pilot language; other interview languages remain under validation. Referrals are discovery leads only.
+
+## Guidance
+
+- [Overview](README.md): Research purpose, participation routes and technical status.
+- [Contact](CONTACT.md): Public Issue route and non-public interview limitations.
+- [Participants](PARTICIPANTS.md): Deployment identity, willingness and permission.
+- [Operators and fleet teams](OPERATORS.md): Individual or cohort enquiries, permission scope and response provenance.
+- [Privacy](PRIVACY.md): Public visibility, session-specific handling terms, originals and translations.
+- [Languages](LANGUAGES.md): Pilot language and translation requirements.
